@@ -791,6 +791,8 @@ GameObject:
   - component: {fileID: 3091279365598814051}
   - component: {fileID: 7150211858949587185}
   - component: {fileID: 8716599585792812382}
+  - component: {fileID: 3852171371439979827}
+  - component: {fileID: 6612757393812415027}
   m_Layer: 0
   m_Name: Bandit
   m_TagString: Untagged
@@ -848,6 +850,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df2017074c44f16845de75c6be80daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &3852171371439979827
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8200861034661458657}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.88
+  m_Height: 3.2170224
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.4237278, z: 0}
+--- !u!54 &6612757393812415027
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8200861034661458657}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &8577530682900212542
 GameObject:
   m_ObjectHideFlags: 0
